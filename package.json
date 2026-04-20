@@ -1,0 +1,45 @@
+{
+  "name": "fetch-pro",
+  "version": "1.0.0",
+  "description": "Fetch Pro",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm --minify --treeshake --target es2020 --clean",
+    "dev": "tsup src/index.ts --dts --format esm --watch",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "api",
+    "request",
+    "response",
+    "typescript",
+    "fetch-api"
+  ],
+  "author": "Alireza Valipou",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlirezaValipourm/fetch-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlirezaValipourm/fetch-pro/issues"
+  },
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "homepage": "https://github.com/AlirezaValipourm/fetch-pro#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.2",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
