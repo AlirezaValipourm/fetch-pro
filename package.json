@@ -2,7 +2,7 @@
   "name": "fetch-pro",
   "version": "1.0.0",
   "description": "Fetch Pro",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm --minify --treeshake --target es2020 --clean",
