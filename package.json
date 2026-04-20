@@ -1,5 +1,5 @@
 {
-  "name": "fetchkit",
+  "name": "fetch-kit",
   "version": "1.0.0",
   "description": "Fetch Pro",
   "main": "dist/index.js",
@@ -23,10 +23,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlirezaValipourm/fetchkit.git"
+    "url": "git+https://github.com/AlirezaValipourm/fetch-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/AlirezaValipourm/fetchkit/issues"
+    "url": "https://github.com/AlirezaValipourm/fetch-kit/issues"
   },
   "module": "dist/index.mjs",
   "exports": {
@@ -36,7 +36,7 @@
       "import": "./dist/index.mjs"
     }
   },
-  "homepage": "https://github.com/AlirezaValipourm/fetchkit#readme",
+  "homepage": "https://github.com/AlirezaValipourm/fetch-kit#readme",
   "devDependencies": {
     "@types/node": "^22.13.2",
     "tsup": "^8.3.6",

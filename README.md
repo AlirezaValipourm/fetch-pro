@@ -1,1 +1,1 @@
-# fetchkit
+# fetch-kit
