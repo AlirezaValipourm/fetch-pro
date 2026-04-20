@@ -1,1 +1,1 @@
-# fetch-kit
+# fetchpro-js
